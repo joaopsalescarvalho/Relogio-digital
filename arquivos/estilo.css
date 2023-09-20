@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family:monospace;
 }
+@media screen and (min-width: 320px) and (max-width: 400px){
+    *{
+        scale: 0.8;
+    }
+}
 body{
     display: flex;
    justify-content: center;
